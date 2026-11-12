@@ -136,4 +136,4 @@ Proposal階段可直接閱讀Markdown文件；架構與流程的Mermaid圖源可
 | 知識條目初稿 | docs/08_domain_knowledge.md |
 | 文獻原文與書目 | references/；目前僅本機保存。 |
 
-原始 Proposal Word 與 PowerPoint 位於 [原專案的 deliverables 目錄](https://github.com/lun-09-15/AIoT_Final_Proj/tree/main/deliverables)。教師要求對照見 [提案檢查表](docs/10_requirements_checklist.md)。介面採用 Streamlit，細節見 [技術與介面方案](docs/09_technology_and_interface.md)。LLM 供應商與固定模型版本待實作前選定，正式評估待執行。
+DIC3 版提案見 [Word](deliverables/Energy_Detective_DIC3_Proposal.docx) 與 [PowerPoint](deliverables/Energy_Detective_DIC3_Proposal.pptx)。期中原版見 [正式專案附件](https://github.com/lun-09-15/AIoT_Final_Proj/tree/main/deliverables)。教師要求對照見 [提案檢查表](docs/10_requirements_checklist.md)。介面採用 Streamlit，細節見 [技術與介面方案](docs/09_technology_and_interface.md)。LLM 供應商與固定模型版本待實作前選定，正式評估待執行。

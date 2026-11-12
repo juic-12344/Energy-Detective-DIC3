@@ -30,6 +30,8 @@ IEA 的建築能源統計說明住宅能源管理的重要性 [1]。在使用者
 | Research Gap | 在單戶歷史回放的五類任務中，加入外部檢查與有界修正後，數字、時間、單位和證據一致性能改善多少？哪些錯誤仍需要人工複核？ |
 | Our Project | Energy Detective 固定分析工具與證據欄位，以同一模型、資料、工具及知識比較有／無外部檢查與修正，另報告預測基準與可用率。 |
 
+Jonah 等人 [5] 針對家電排程的可行性提出獨立驗證。本專題驗證家庭用電分析回答中的數值、日期、單位與證據一致性，並以相同模型、工具與資料比較有無外部檢查與一次有界修正，量測回答品質、延遲及用量。
+
 ## 5. 參考文獻
 
 [1] International Energy Agency. (2025). *Energy Efficiency 2025*. Published 20 November 2025. [官方報告](https://www.iea.org/reports/energy-efficiency-2025)；[住宅／建築章節](https://www.iea.org/reports/energy-efficiency-2025/buildings)。

@@ -186,11 +186,12 @@ Output: Candidate flag and reference evidence, or limitations
 09: end if
 10: score <- 0.6745 * (x - m) / mad
 11: candidate <- Abs(score) > 3.5
-12: return Result(candidate, score, median = m, MAD = mad, count = Count(B),
-13:               label = ANOMALY_CANDIDATE, no_confirmed_cause = true)
+12: result <- Result(candidate, score, median = m, MAD = mad, count = Count(B))
+13: if candidate then result.label <- ANOMALY_CANDIDATE
+14: return result
 ```
 
-參考小時必須結束於s以前；如小時起點為s，end<=s表示不含目標小時。此處未做統計顯著性檢定，沒有真實故障或浪費標籤。MAD為零時只報差異，不強行加入任意小數分母。
+參考小時必須結束於s以前；如小時起點為s，end<=s表示不含目標小時。此處未做統計顯著性檢定，沒有真實故障或浪費標籤。MAD為零時只報差異，不強行加入任意小數分母。分數絕對值等於 3.5 時不標記異常。即使標記為異常候選，成因仍需另行查證。
 
 ## 6. 離線訓練與線上回放的分離
 

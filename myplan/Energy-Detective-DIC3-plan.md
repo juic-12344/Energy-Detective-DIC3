@@ -24,6 +24,7 @@
 | DESIGN.md 轉 OpenSpec | [DESIGN.md](../DESIGN.md)、[Proposal](../openspec/changes/implement-energy-detective/proposal.md)、[Design](../openspec/changes/implement-energy-detective/design.md)、[Specs](../openspec/changes/implement-energy-detective/specs/)、[Tasks](../openspec/changes/implement-energy-detective/tasks.md) |
 | Introduction Refactor | [緒論](../docs/03_introduction_draft.md) |
 | Related Work Refactor | [文獻比較與 Article Summary Table](../docs/02_literature_review.md) |
+| DIC3 提案 Word 與 PPT | [Word](../deliverables/Energy_Detective_DIC3_Proposal.docx) · [PPT](../deliverables/Energy_Detective_DIC3_Proposal.pptx) |
 | A4 橫式編號資訊圖 | [PDF](../docs/diagrams/Energy_Detective_DIC3_A4.pdf) · [PNG](../docs/diagrams/Energy_Detective_DIC3_A4.png) |
 
 ## 05. 系統設計與評估
@@ -34,7 +35,7 @@
 
 ## 安裝與驗證
 
-已在工作環境以 Node.js 24 和 OpenSpec 2.0.0 初始化，並執行嚴格驗證。Windows CMD 可以從專案根目錄執行以下指令。npm 安裝版需要 Node.js 20.19 或以上。
+初版使用 Node.js 24 和 OpenSpec 2.0.0 初始化。以下指令可在 Windows CMD 的專案根目錄執行，重跑本版規格驗證。本提案鎖定的 npm 版本 OpenSpec 2.0.0 需要 Node.js 22.12.0 或以上。
 
 ```cmd
 node --version
@@ -47,7 +48,7 @@ openspec validate implement-energy-detective --strict --type change
 
 全新專案可用 `openspec init --tools antigravity` 初始化。本專案已附 `openspec/config.yaml` 及變更資料夾，可直接列出、檢視與驗證。若要在 Antigravity 裝本專案的 OpenSpec 整合，可在本機專案根目錄執行相同 init 指令。
 
-[OpenSpec 安裝說明](https://openspec.dev/docs/installation) · [CLI 文件](https://openspec.dev/docs/cli)
+[OpenSpec 安裝說明](https://github.com/Fission-AI/OpenSpec/blob/v2.0.0/docs/installation.md) · [CLI 文件](https://github.com/Fission-AI/OpenSpec/blob/v2.0.0/docs/cli.md)
 
 ## 這次如何使用 Spec-Driven Development
 
