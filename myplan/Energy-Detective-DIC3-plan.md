@@ -50,6 +50,17 @@ openspec validate implement-energy-detective --strict --type change
 
 [OpenSpec 安裝說明](https://github.com/Fission-AI/OpenSpec/blob/v2.0.0/docs/installation.md) · [CLI 文件](https://github.com/Fission-AI/OpenSpec/blob/v2.0.0/docs/cli.md)
 
+### 本版驗證紀錄
+
+以 [提交 `bc3ac4b`](https://github.com/juic-12344/Energy-Detective-DIC3/commit/bc3ac4bc4011ba26a3c6267ef6d9d14242fcfc4d) 的公開快照執行上述版本查詢、狀態檢查及嚴格驗證。以下為關鍵輸出，嚴格驗證的結束碼為 `0`。
+
+```text
+v22.14.0
+2.0.0
+Progress: 4/4 artifacts complete
+Change 'implement-energy-detective' is valid
+```
+
 ## 這次如何使用 Spec-Driven Development
 
 1. **Proposal** 說明為何要做，以及變更影響。
