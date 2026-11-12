@@ -2,9 +2,11 @@
 
 研究與技術底稿來自 [Energy Detective 正式專案](https://github.com/lun-09-15/AIoT_Final_Proj)。
 
+[期中提案文字擷取](Energy-Detective-期中Proposal-文字擷取.md) · [課程規範](Energy-Detective-期末專題規範對照.md) · [改版決策紀錄](Energy-Detective-DIC3-conversation-plan.md)
+
 ## 01. 提案解析與 A4 資訊圖
 
-本案用歷史電表紀錄驗證五類用電分析任務，並設計外部回答檢查的對照評估。[A4 橫式資訊圖與其他附件](README-attachments.md) 整理了研究重點、系統模組及實驗規劃。
+[Energy Detective 提案解析](Energy-Detective-提案解析.md) 對照原稿、課程規範與本次 OpenSpec。研究規劃以歷史電表紀錄驗證五類用電分析任務，並設計外部回答檢查的對照評估。[A4 橫式資訊圖與其他附件](README-attachments.md) 整理了研究重點、系統模組及實驗規劃。
 
 ## 02. 摘要 A–F、緒論與相關研究
 
