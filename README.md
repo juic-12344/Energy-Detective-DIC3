@@ -22,3 +22,11 @@
 
 - [提案規劃與五項作業](myplan/Energy-Detective-DIC3-plan.md)
 - [附件索引與 A4 資訊圖](myplan/README-attachments.md)
+
+## DIC4 — IEEE Conference Draft (2026-11-25)
+
+- [IEEE conference LaTeX manuscript](paper/main.tex) · [Paper build / Overleaf import](paper/README.md)
+- [DIC4 workflow and verification](myplan/DIC4-plan.md)
+- [OpenSpec DIC4 change](openspec/changes/draft-conference-paper/) — proposal, design, spec and tasks
+
+4-page IEEEtran draft; research experiments are planned, not completed. The original DIC3 proposal and implementation change are preserved. Overleaf online import requires account sign-in.
